@@ -1,0 +1,68 @@
+                                                                                * {
+                                                                                    margin: 0;
+                                                                                    padding: 0;
+                                                                                    box-sizing: border-box;
+                                                                                }
+                                                                                
+                                                                                .container {
+                                                                                    background-image: url('images/background.jpg');
+                                                                                    background-color: rgba(0, 0, 0, 0.7);
+                                                                                    background-size: cover;
+                                                                                    min-height: 100Vh;
+                                                                                    background-blend-mode: darken;
+                                                                                }
+                                                                                
+                                                                                .cards {
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    border: 1px solid#ffffff;
+                                                                                    height: 100Vh;
+                                                                                }
+                                                                                
+                                                                                .card1 {
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    flex-direction: column;
+                                                                                    background: #ffffff;
+                                                                                    border-radius: 25px;
+                                                                                    height: 80%;
+                                                                                    width: 450px;
+                                                                                    margin-left: 20px;
+                                                                                    padding: 40px;
+                                                                                }
+                                                                                
+                                                                                .card2 {
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    flex-direction: column;
+                                                                                    background: #8C52FF;
+                                                                                    border-radius: 25px;
+                                                                                    height: 80%;
+                                                                                    width: 450px;
+                                                                                    margin-left: 20px;
+                                                                                    padding: 40px;
+                                                                                }
+                                                                                
+                                                                                .image {
+                                                                                    width: 200px;
+                                                                                    margin: auto;
+                                                                                }
+                                                                                
+                                                                                .search {
+                                                                                    border: 1px solid grey;
+                                                                                    border-radius: 25px;
+                                                                                    height: 20px;
+                                                                                    width: 100%;
+                                                                                    padding: 5px 23px 5px 30px;
+                                                                                    outline: 0;
+                                                                                    background-color: #f5f5f5;
+                                                                                }
+                                                                                
+                                                                                .search:hover,
+                                                                                .search:focus {
+                                                                                    border: 1px solid#009688;
+                                                                                    background-color: #fff;
+                                                                                }
